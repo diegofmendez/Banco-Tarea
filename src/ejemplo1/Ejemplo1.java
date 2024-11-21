@@ -1,7 +1,7 @@
 package ejemplo1;
 
 //Author: Nestor German Bolivar, Diego Francisco Mendez
-//Abstract: This code makes you spontaneously combust
+//Abstract: This code makes you spontaneously 
 
 public class Ejemplo1 {
     
@@ -13,7 +13,7 @@ public class Ejemplo1 {
         Cliente cliente = new Cliente("Hola",1);
         
         System.out.println(cliente.getNombre());
-        
+        System.out.println("weee");
 
       
         
