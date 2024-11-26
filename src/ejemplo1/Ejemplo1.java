@@ -45,9 +45,9 @@ public class Ejemplo1 {
             System.out.println("2: Extraer");
             int option= s.nextInt();
             if (option==1) {
-                System.out.println("Suicidate");
+                System.out.println("Hola XD");
             } else if (option == 2){
-                System.out.println("Oh chet");
+                System.out.println("Queda tan");
             }else{
                 System.out.println("Fin");
                 check = false;
