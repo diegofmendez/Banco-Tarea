@@ -11,29 +11,25 @@ public class Ejemplo1 {
     
     public static void main(String[] args) {
         
-        
+        Ejemplo1.registro();
         Ejemplo1.menu();
- 
+        
         Cliente cliente = new Cliente("Hola",1);
         
         System.out.println(cliente.getNombre());
-        System.out.println("weee");
 
-        System.out.println("Hola");
-        
     }
         
     
-    public static void registro(){
+    public static Cliente registro(){
         Scanner s = new Scanner(System.in);
         System.out.println("Ingrese su nombre");
         String nombre = s.nextLine();
         System.out.println("Ingrese su núero de cedula");
         int cedula = Integer.parseInt(s.nextLine());
-        
-        
-        System.out.println("");
-        
+        Cliente cliente1 = new Cliente(nombre, cedula);
+        Cuenta cuenta1 = new Cuenta(cliente1);
+        return cliente1;
     }
     
     public static void menu(){
