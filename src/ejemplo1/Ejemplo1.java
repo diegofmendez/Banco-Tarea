@@ -26,14 +26,20 @@ public class Ejemplo1 {
     
     public static void registro(){
         Scanner s = new Scanner(System.in);
+        String nombre = s.nextLine();
+        int cedula = Integer.parseInt(s.nextLine());
+        
+        
         System.out.println("");
         
     }
     
     public static void menu(){
+        Scanner s = new Scanner(System.in);
         boolean check = true;
         while(check == true){
             check = false;
+            
         }
     }
     
