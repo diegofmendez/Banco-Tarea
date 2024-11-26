@@ -15,7 +15,7 @@ public class Ejemplo1 {
         System.out.println(cliente.getNombre());
         System.out.println("weee");
 
-      
+        System.out.println("Hola");
         
     }
  
