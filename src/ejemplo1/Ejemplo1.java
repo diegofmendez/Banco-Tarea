@@ -1,7 +1,11 @@
 package ejemplo1;
 
+import java.util.Scanner;
+
+
 //Author: Nestor German Bolivar, Diego Francisco Mendez
-//Abstract: This code makes you spontaneously 
+//Abstract: This code makes you spontaneously combust
+ 
 
 public class Ejemplo1 {
     
@@ -17,7 +21,18 @@ public class Ejemplo1 {
 
       
         
-    }
- 
+    }   
+        public void registro(){
+            Scanner s = new Scanner(System.in);
+        }
+    
+        public void menu(){
+            boolean check = true;
+            System.out.println("Bienvenido");
+            while (check == true) {                
+                System.out.println("Elije una opción");
+                System.out.println(" ");
+            }
+        }
 
 }
