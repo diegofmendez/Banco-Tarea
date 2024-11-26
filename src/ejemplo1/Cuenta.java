@@ -6,14 +6,14 @@ package ejemplo1;
 public class Cuenta {
     
     private String titular;
-    private int Saldo;
+    private double Saldo = 0;
 
     public Cuenta(Cliente cliente) {
         titular = cliente.getNombre();
     }
 
 
-    boolean consignacion(int x){
+    boolean consignacion(double x){
         
         boolean peticion = true;
         
@@ -25,7 +25,7 @@ public class Cuenta {
         }  
     }
     
-    boolean retiro(int x){
+    boolean retiro(double x){
         
         boolean peticion = true;
         
@@ -37,7 +37,7 @@ public class Cuenta {
         }  
     }
 
-    int getSaldo() {
+    double getSaldo() {
         
         return this.Saldo;
     }
