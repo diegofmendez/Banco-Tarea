@@ -26,7 +26,9 @@ public class Ejemplo1 {
     
     public static void registro(){
         Scanner s = new Scanner(System.in);
+        System.out.println("Ingrese su nombre");
         String nombre = s.nextLine();
+        System.out.println("Ingrese su núero de cedula");
         int cedula = Integer.parseInt(s.nextLine());
         
         
@@ -50,8 +52,6 @@ public class Ejemplo1 {
                 System.out.println("Fin");
                 check = false;
             }
-
-            
         }
     }
     

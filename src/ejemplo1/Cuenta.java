@@ -6,7 +6,7 @@ package ejemplo1;
 public class Cuenta {
     
     private String titular;
-    private double Saldo;
+    private double Saldo = 0;
 
     public Cuenta(Cliente cliente) {
         titular = cliente.getNombre();
